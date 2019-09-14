@@ -25,6 +25,14 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+	<dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>6.8</version>
+   <scope>test</scope>
+ </dependency>
+
   </dependencies>
 
   <build>
@@ -39,6 +47,12 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
+	<configuration>
+                <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+          </configuration>
+
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
