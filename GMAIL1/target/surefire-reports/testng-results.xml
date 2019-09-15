@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="38" started-at="2019-09-14T15:36:12Z" finished-at="2019-09-14T15:36:12Z">
+  <suite name="Feature" duration-ms="32" started-at="2019-09-15T13:39:51Z" finished-at="2019-09-15T13:39:51Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="38" started-at="2019-09-14T15:36:12Z" finished-at="2019-09-14T15:36:12Z">
+    <test name="UnitLevelTest" duration-ms="32" started-at="2019-09-15T13:39:51Z" finished-at="2019-09-15T13:39:51Z">
+      <class name="com.mail.AppTest1">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.mail.AppTest1@7c75222b]" name="shouldAnswerWithTrue" duration-ms="0" started-at="2019-09-15T13:39:51Z" finished-at="2019-09-15T13:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- com.mail.AppTest1 -->
       <class name="com.mail.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.mail.AppTest@56cbfb61]" name="shouldAnswerWithTrue" duration-ms="14" started-at="2019-09-14T15:36:12Z" finished-at="2019-09-14T15:36:12Z">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.mail.AppTest@75bd9247]" name="shouldAnswerWithTrue" duration-ms="9" started-at="2019-09-15T13:39:51Z" finished-at="2019-09-15T13:39:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- com.mail.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- UnitLevelTest -->
+  </suite> <!-- Feature -->
 </testng-results>
